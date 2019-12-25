@@ -1,0 +1,58 @@
+body {
+ 
+  font-family: 'Inria Serif', serif;
+  background-color: lightgray;
+
+}
+
+h2, .readme-wrapper, p {
+  text-align: center;
+}
+
+a:hover {
+  cursor: pointer;
+  color: yellow;
+  font-weight: bold;
+}
+
+p > span {
+  color: red;
+  font-weight: bold;
+}
+
+.boxes {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  width: 30em;
+  display: block;
+}
+
+#box1 {
+  background-color: teal;
+}
+
+#box2 {
+  background-color: aliceblue;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+}
+
+#box3 {
+  background-color: khaki;
+}
+
+#box4 {
+  background-color: fuchsia;
+}
+
+.images {
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: papayawhip;
+    position: absolute;
+    top: 40%;
+  }
